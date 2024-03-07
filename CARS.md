@@ -8,10 +8,10 @@
 | id              | INT         | AUTO INCREMENT, (NOT NULL, UNSIGNED, UNIQUE) | PRIMARY KEY |
 | brand           | VARCHAR(20) | NOT NULL, DEFAULT("unknown")                 |             |
 | model           | VARCHAR(50) | NOT NULL, DEFAULT("unknown")                 |             |
-| KM              | INT         | NOT NULL                                     |             |
-| production year | YEAR        | NOT NULL                                     |             |
-| number plate    | CHAR(8)     | NOT NULL, UNIQUE                             |             |
-| fuel type       | VARCHAR(20) | NOT NULL                                     |             |
+| km              | INT         | NOT NULL                                     |             |
+| production_year | YEAR        | NOT NULL                                     |             |
+| number_plate    | CHAR(8)     | NOT NULL, UNIQUE                             |             |
+| fuel_type       | VARCHAR(20) | NOT NULL                                     |             |
 
 
 
