@@ -3,9 +3,13 @@
 
 # "cars" TABLE STRUCTURE
 
-| FIELD | TYPE | ATTRIBUTES                                   | INDEXES     |
-| ----- | ---- | -------------------------------------------- | ----------- |
-| id    | INT  | AUTO INCREMENT, (NOT NULL, UNSIGNED, UNIQUE) | PRIMARY KEY |
+| FIELD | TYPE        | ATTRIBUTES                                   | INDEXES     |
+| ----- | ----------- | -------------------------------------------- | ----------- |
+| id    | INT         | AUTO INCREMENT, (NOT NULL, UNSIGNED, UNIQUE) | PRIMARY KEY |
+| brand | VARCHAR(20) | NOT NULL, DEFAULT("unknown")                 |             |
+| model | VARCHAR(50) | NOT NULL, DEFAULT("unknown")                 |             |
+| KM    | INT         | NOT NULL                                     |             |
+|       |
 
 
 
