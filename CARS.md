@@ -3,7 +3,9 @@
 
 # "cars" TABLE STRUCTURE
 
-| FIELD | TYPE | ATTRIBUTES | INDEXES |
-| ----- | ---- | ---------- | ------- |
+| FIELD | TYPE | ATTRIBUTES                                   | INDEXES     |
+| ----- | ---- | -------------------------------------------- | ----------- |
+| id    | INT  | AUTO INCREMENT, (NOT NULL, UNSIGNED, UNIQUE) | PRIMARY KEY |
+
 
 
